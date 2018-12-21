@@ -8,16 +8,29 @@
 
             <link rel="stylesheet" href="./assets/styles/style.css">
 
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
             <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
         </head>
         <body>
             <div id="app" class="app">
                 <div id="app-ctr" class="app-ctr">
-
+                    <div class="to-do-ctr" id="id??">
+                        <form action="" @submit.prevent method="post" class="to-do-form-done">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                        <p class="to-do-name" id="id??">{{ msg }}</p>
+                        <form action="" @submit.prevent method="post" class="to-do-form-del">
+                            <i class="fas fa-times" class="to-do-del" id="id??"></i>
+                        </form>
+                    </div>
                 </div>
             </div>
-
             <script src="./assets/scripts/vue.js"></script>
             <script src="./assets/scripts/main.js"></script>   
         </body>
     </html>
+
+<!-- <?php
+    while
+?> -->

@@ -27,4 +27,33 @@ body {
     height: 350px;
     /* border: 1px solid grey; */
     box-shadow: 2.5px 2.5px 75px #000000;
+    padding: 10px;
+}
+
+.to-do-ctr {
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    flex-wrap: wrap;
+    height: min-content;
+    margin-bottom: 10px;
+}
+
+.to-do-ctr * {
+    margin: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.to-do-form-done {
+    margin: 0;
+}
+
+.to-do-form-del {
+    margin: 0;
+}
+
+i.fa-times {
+    cursor: pointer;
+    color: #ff4500;
 }
